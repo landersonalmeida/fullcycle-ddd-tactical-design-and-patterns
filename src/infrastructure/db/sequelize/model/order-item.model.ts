@@ -5,13 +5,13 @@ import {
   Column,
   ForeignKey,
   BelongsTo
-} from "sequelize-typescript"
+} from 'sequelize-typescript'
 import CustomerModel from './customer.model'
 import ProductModel from './product.model'
 import OrderModel from './order.model'
 
 @Table({
-  tableName: "order_items",
+  tableName: 'order_items',
   timestamps: false,
 })
 export default class OrderItemModel extends Model {
