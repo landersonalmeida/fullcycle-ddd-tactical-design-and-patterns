@@ -5,7 +5,7 @@ describe('Product factory unit test', () => {
     const product = ProductFactory.create('a', 'Product A', 10)
 
     expect(product.id).toBeDefined()
-    expect(product.name).toBe('Product 1')
+    expect(product.name).toBe('Product A')
     expect(product.price).toBe(10)
   })
 
